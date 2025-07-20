@@ -144,7 +144,9 @@ header {
 }
 
     #barra-oculta {
-    font-size: 22px;
+    font-size: 15px;
+
+
 }
 }
 
@@ -216,5 +218,9 @@ header {
     font-size: 18px;
     max-width: 100%;
     max-height: 100%;
+
 }
+    #hamb {
+        margin-right: 10%;
+    }
 }
