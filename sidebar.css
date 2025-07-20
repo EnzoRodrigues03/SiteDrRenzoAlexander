@@ -144,6 +144,11 @@ header {
     max-height: 100%;
 }
 
+    #barra-oculta {
+    font-size: 15px;
+
+
+}
 }
 
 #secao2 {
@@ -217,6 +222,6 @@ header {
 
 }
     #hamb {
-        margin-right: 10%;
+        margin-right: 7%;
     }
 }
