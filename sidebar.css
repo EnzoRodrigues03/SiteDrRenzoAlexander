@@ -144,10 +144,9 @@ header {
     max-height: 100%;
 }
 
-    #barra-oculta {
-    font-size: 15px;
-
-
+    #barra-oculta.ativa {
+    max-height: 300px;
+    font-size: 30px;
 }
 }
 
