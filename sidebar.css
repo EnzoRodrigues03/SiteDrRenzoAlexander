@@ -29,9 +29,9 @@ header {
 
 #hamb {
     margin-left: auto;
+    margin-right: 5%;
     width: 30px;
     height: 30px;
-    margin-right: 15px;
     border: none;
     background-image: url(hamb.png);
     background-size: contain;
@@ -112,7 +112,7 @@ header {
 
 @media (max-width: 768px) {
     #secao1 {
-        max-height: fit-content;
+        height: auto;
         flex-direction: column;
         gap: 20px;
         padding-top: 10%;
@@ -121,8 +121,8 @@ header {
     }
 
     #s1c1, #s1logo {
-        max-height: fit-content;
-        max-width: 90%;
+        height: auto;
+        width: auto;
         text-align: center;
     }
 
@@ -144,7 +144,7 @@ header {
 }
 
     #barra-oculta {
-    font-size: 10px;
+    font-size: 22px;
 }
 }
 
@@ -197,8 +197,9 @@ header {
 
     #s2c1 {
         height: auto;
-        max-width: 90%;
+        max-width: 95%;
         text-align: center;
+        padding: 2%;
     }
 
     #foto-renzo {
