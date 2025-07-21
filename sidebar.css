@@ -20,7 +20,7 @@ header {
 }
 
 #logo {
-    margin-left: 5px;
+    margin-left: 8px;
     background-image: url(titulo.jpeg);
     background-repeat: no-repeat;
     background-size: contain;
@@ -180,7 +180,8 @@ header {
 }
 
 #s2h1 {
-    font-size: 50px;
+    font-size: 25px;
+    font-style: italic;
 }
 
 .s2p {
@@ -199,7 +200,7 @@ header {
 
     #s2c1 {
         height: auto;
-        max-width: 95%;
+        width: 80%;
         text-align: center;
         padding: 2%;
     }
@@ -222,5 +223,10 @@ header {
 }
     #hamb {
         margin-right: 7%;
+
+    }
+    #logo {
+        height: 50px;
+        width: 200px;
     }
 }
