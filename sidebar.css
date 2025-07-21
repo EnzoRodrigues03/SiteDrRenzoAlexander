@@ -111,44 +111,7 @@ header {
     border-radius: 250px;
 }
 
-@media (max-width: 768px) {
-    #secao1 {
-        height: auto;
-        flex-direction: column;
-        gap: 20px;
-        padding-top: 10%;
-        padding-bottom: 10%;
-        padding-right: 10%;
-    }
 
-    #s1c1, #s1logo {
-        height: auto;
-        width: auto;
-        text-align: center;
-    }
-
-    #s1logo {
-        max-width: 250px;
-        height: auto;
-    }
-
-    #s1h1 {
-    font-size: 25px;
-    max-width: 100%;
-    max-height: 100%;
-}
-
-    #s1p1 {
-    font-size: 18px;
-    max-width: 100%;
-    max-height: 100%;
-}
-
-    #barra-oculta.ativa {
-    max-height: 150px;
-    font-size: 20px;
-}
-}
 
 #secao2 {
     display: flex;
@@ -188,7 +151,46 @@ header {
     font-size: 20px;
 }
 
+
+
 @media (max-width: 768px) {
+    #secao1 {
+        height: auto;
+        flex-direction: column;
+        gap: 20px;
+        padding-top: 10%;
+        padding-bottom: 10%;
+        padding-right: 10%;
+    }
+
+    #s1c1, #s1logo {
+        height: auto;
+        width: auto;
+        text-align: center;
+    }
+
+    #s1logo {
+        max-width: 250px;
+        height: auto;
+    }
+
+    #s1h1 {
+    font-size: 25px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+    #s1p1 {
+    font-size: 18px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+    #barra-oculta.ativa {
+    max-height: 150px;
+    font-size: 20px;
+}
+
     #secao2 {
         height: auto;
         flex-direction: column;
