@@ -366,7 +366,7 @@ header {
 
 #s3h1txt {
     color: #a58450;
-    font-size: 30px;
+    font-size: 27px;
     text-align: center;
 }
 
@@ -374,6 +374,6 @@ header {
     margin-top: 2%;
     color: #D5D5D5;
     text-align: justify;
-    font-size: 20px;
+    font-size: 16px;
 }
 }
