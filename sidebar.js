@@ -1,5 +1,9 @@
 var mover = window.document.querySelector("#barra-oculta")
 
+function clicoufora() {
+    mover.classList.remove("ativa")
+}
+
 function clicar() {
     mover.classList.toggle("ativa");
 }
