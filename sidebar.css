@@ -163,11 +163,9 @@ header {
     height: auto;
     background-color: #D5D5D5;
     font-family: "Playfair Display", serif;
-    gap: 50px;
+    gap: 30px;
     justify-content: center;
-    gap: 50px;
-    padding-top: 1.2%;
-    margin-top: 5%;
+    margin-top: 4%;
 }
 
 .s3cxs {
@@ -324,6 +322,11 @@ header {
 
 /*Seção 3--------------------------------------------------------------------------------------------------------*/
 
+#secao3{
+    gap: 5px;
+    margin-top: 7%;
+}
+
 .s3cxs {
     max-width: 100%;
     height: auto;
@@ -356,8 +359,8 @@ header {
 
 #s3c7 {
     width: 500px;
-    height: 410px;
-    margin-top: 10%;
+    height: 430px;
+    margin-top: 5%;
     margin-left: 5%;
     margin-right: 5%;
     padding: 2.5%;
