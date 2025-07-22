@@ -1,4 +1,11 @@
+var mover = window.document.querySelector("#barra-oculta")
+
 function clicar() {
-    var mover = window.document.querySelector("#barra-oculta")
     mover.classList.toggle("ativa");
+}
+
+function clicar2() {
+    if (mover.classList.contains("ativa")) {
+        mover.classList.remove("ativa")
+    }
 }
