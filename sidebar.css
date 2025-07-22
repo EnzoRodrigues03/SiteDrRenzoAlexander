@@ -17,6 +17,7 @@ header {
     align-items: center;
     padding-left: 1px;
     z-index: 1;
+    border-bottom: solid #121621;
 }
 
 #logo {
@@ -70,6 +71,8 @@ header {
     cursor: pointer;
 }
 
+/*Seção 1--------------------------------------------------------------------------------------------------------*/
+
 #secao1 {
     display: flex;
     width: 100%;
@@ -111,12 +114,12 @@ header {
     border-radius: 250px;
 }
 
-
+/*Seção 2--------------------------------------------------------------------------------------------------------*/
 
 #secao2 {
     display: flex;
     width: 100%;
-    height: 500px;
+    height: 700px;
     background-color: #a58450;
     font-family: "Playfair Display", serif;
     gap: 50px;
@@ -128,9 +131,9 @@ header {
 #s2c1 {
     background-color: #121621;
     width: 50%;
-    height: 80%;
+    height: 70%;
     border-radius: 30px;
-    padding: 1%;
+    padding: 1.2%;
     text-align: justify;
     overflow: hidden;
     color: #D5D5D5;
@@ -151,9 +154,94 @@ header {
     font-size: 20px;
 }
 
+/*Seção 3--------------------------------------------------------------------------------------------------------*/
 
+#secao3 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    background-color: #D5D5D5;
+    font-family: "Playfair Display", serif;
+    gap: 50px;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 1.2%;
+    margin-top: 5%;
+}
+
+.s3cxs {
+    width: 500px;
+    height: 400px;
+    background-color: #132646;
+    border-radius: 20px;
+    padding: 1.2%;
+}
+
+.s3h1txt {
+    color: #a58450;
+    font-size: 30px;
+    text-align: center;
+}
+
+.s3dentro {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 90%;
+    justify-content: center;
+}
+
+.s3ptxt {
+    padding-top: 2%;
+    color: #D5D5D5;
+    text-align: justify;
+    font-size: 18px;
+}
+
+#secao3-1 {
+    display: flex;
+    width: 100%;
+    height: none;
+    background-color: #D5D5D5;
+    font-family: "Playfair Display", serif;
+    gap: 50px;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+#s3c7 {
+    margin-top: 1%;
+    max-height: none;
+    width: 60%;
+    background-color: #132646;
+    border-radius: 20px;
+}
+
+#s3h1txt {
+    color: #a58450;
+    font-size: 30px;
+    padding: 1%;
+    text-align: center;
+}
+
+.s3ptxt2 {
+    padding-top: 0.5%;
+    color: #D5D5D5;
+    text-align: justify;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+/*Media--------------------------------------------------------------------------------------------------------*/
 
 @media (max-width: 768px) {
+
+/*Seção 1--------------------------------------------------------------------------------------------------------*/
+
     #secao1 {
         height: auto;
         flex-direction: column;
@@ -191,6 +279,8 @@ header {
     font-size: 20px;
 }
 
+/*Seção 2--------------------------------------------------------------------------------------------------------*/
+
     #secao2 {
         height: auto;
         flex-direction: column;
@@ -204,7 +294,7 @@ header {
         height: auto;
         width: 80%;
         text-align: center;
-        padding: 2%;
+        padding: 4%;
     }
 
     #foto-renzo {
@@ -231,4 +321,58 @@ header {
         height: 50px;
         width: 200px;
     }
+
+/*Seção 3--------------------------------------------------------------------------------------------------------*/
+
+.s3cxs {
+    max-width: 100%;
+    max-height: none;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 2.5%;
+}
+
+.s3h1txt {
+    color: #a58450;
+    font-size: 30px;
+    text-align: center;
+}
+
+.s3ptxt {
+    padding-top: 2%;
+    color: #D5D5D5;
+    text-align: justify;
+    font-size: 16px;
+}
+
+.s3dentro {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 80%;
+    justify-content: center;
+    background-color: re;
+}
+
+#s3c7 {
+    width: 500px;
+    max-height: none;
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 2.5%;
+}
+
+#s3h1txt {
+    color: #a58450;
+    font-size: 30px;
+    text-align: center;
+}
+
+.s3ptxt2 {
+    margin-top: 2%;
+    color: #D5D5D5;
+    text-align: justify;
+    font-size: 16px;
+}
 }
