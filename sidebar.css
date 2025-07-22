@@ -72,6 +72,8 @@ header {
 
 .redi {
     text-decoration: none;
+    cursor: pointer;
+    color: #121621;
 }
 
 .redi:hover {
