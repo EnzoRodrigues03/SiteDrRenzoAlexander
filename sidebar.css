@@ -310,6 +310,12 @@ header {
 .s4pcxs {
     font-size: 18px;
     text-align: justify;
+    list-style: none;
+}
+
+.s4pcxs1 {
+    font-size: 18px;
+    text-align: justify;
 }
 
 /*Media--------------------------------------------------------------------------------------------------------*/
