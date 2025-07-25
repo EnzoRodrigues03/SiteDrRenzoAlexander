@@ -27,13 +27,13 @@ window.document.body.querySelector("a#contato").innerHTML = "Contacto";
 //Seção 1
 
 window.document.body.querySelector("h1#s1h1").innerHTML = "DERECHO CON RESPONSABILIDAD Y COMPROMISO";
-window.document.body.querySelector("p#s1p1").innerHTML = "Práctica en Derecho Administrativo, Derecho Constitucional, Derecho de la Seguridad Social, Derecho Laboral, Migración y Naturalización, Derecho de Familia";
+window.document.body.querySelector("p#s1p1").innerHTML = "Actuación en Derecho Administrativo, Derecho Constitucional, Derecho de la Previdencia, Derecho Laboral, Migración y Naturalización, Derecho de Familia";
 
 //Seção 2
 
 window.document.body.querySelector("h1#s2h1").innerHTML = "La Constitución es mi tierra. La dignidad es mi idioma.";
-window.document.body.querySelector("p#s2p1").innerHTML = "Renzo Alexander Moreno Oberto Naturalizado venezolano en el mundo.";
-window.document.body.querySelector("p#s2p2").innerHTML = "Abogo por la intersección del orden constitucional y el principio de dignidad. Soy licenciado y posgraduado en Derecho Administrativo y Derecho Público por la Universidad de Mogi das Cruzes y aprobé el 42.º examen de la OAB.";
+window.document.body.querySelector("p#s2p1").innerHTML = "Renzo Alexander Moreno Oberto, venezolano, naturalizado brasileño por Amor.";
+window.document.body.querySelector("p#s2p2").innerHTML = "Abogo por la intersección de la orden constitucional y el principio de la dignidad. Soy abogado y posgraduado en Derecho Administrativo y Derecho Público por la Universidad de Mogi das Cruzes y aprobado en el 42.º examen de la OAB.";
 window.document.body.querySelector("p#s2p3").innerHTML = "Brasileño de alma crítica, creo que el derecho no es sólo una norma: es lenguaje, es presencia, es un instrumento de libertad institucional.";
 
 //Seção 3
@@ -51,7 +51,7 @@ window.document.body.querySelector("p#s3ptxt7").innerHTML = "• Impropiedad adm
 window.document.body.querySelector("p#s3ptxt8").innerHTML = "• Intervención estatal";
 window.document.body.querySelector("p#s3ptxt9").innerHTML = "• Consultoría de Políticas Públicas y Gobernanza";
 
-window.document.body.querySelector("h1#s3h1txt3").innerHTML = "Ley de Seguridad Social";
+window.document.body.querySelector("h1#s3h1txt3").innerHTML = "Derecho de la Previdencia";
 window.document.body.querySelector("p#s3ptxt10").innerHTML = "• Beneficios del Régimen General de la Seguridad Social (RGPS)";
 window.document.body.querySelector("p#s3ptxt11").innerHTML = "• Planes de Pensiones Propios de los Funcionarios Públicos (RPPS)";
 window.document.body.querySelector("p#s3ptxt12").innerHTML = "• BPC/LOAS";
@@ -86,30 +86,30 @@ window.document.body.querySelector("p#s3ptxt29").innerHTML = "• Formación y c
 window.document.body.querySelector("h1#s4h11").innerHTML = "Misión";
 window.document.body.querySelector("h1#s4h12").innerHTML = "Valores";
 window.document.body.querySelector("h1#s4h13").innerHTML = "Visión";
-window.document.body.querySelector("").innerHTML = "";
-window.document.body.querySelector("").innerHTML = "";
-window.document.body.querySelector("").innerHTML = "";
-window.document.body.querySelector("").innerHTML = "";
-window.document.body.querySelector("").innerHTML = "";
-window.document.body.querySelector("").innerHTML = "";
-window.document.body.querySelector("").innerHTML = "";
-window.document.body.querySelector("").innerHTML = "";
-window.document.body.querySelector("").innerHTML = "";
-window.document.body.querySelector("").innerHTML = "";
-window.document.body.querySelector("").innerHTML = "";
-window.document.body.querySelector("").innerHTML = "";
-window.document.body.querySelector("").innerHTML = "";
-window.document.body.querySelector("").innerHTML = "";
+window.document.body.querySelector("h1#s4h1cxs1").innerHTML = "MiSIÓN";
+window.document.body.querySelector("li#s3ptxt30").innerHTML = "Promover la justicia, la legalidad y la dignidad, con acción jurídica técnica y estratégica en la defensa de los derechos fundamentales, del servicio público y de personas históricamente invisibilizadas, como extranjeros, servidores públicos, personas mayores, personas LGBTQIA+ y familias en situación de vulnerabilidad.";
+window.document.body.querySelector("li#s3ptxt31").innerHTML = "Actuar con excelencia, ética y profundidad en consultoría y litigio, contribuyendo a un Brasil más justo, transparente y comprometido con su Constitución.";
+window.document.body.querySelector("h1#s4h1cxs2").innerHTML = "VALORES";
+window.document.body.querySelector("li#s3ptxt32").innerHTML = "La ética y la legalidad como fundamento";
+window.document.body.querySelector("li#s3ptxt33").innerHTML = "Compromiso con los derechos fundamentales";
+window.document.body.querySelector("li#s3ptxt34").innerHTML = "Excelencia Técnica y Estrategia Legal";
+window.document.body.querySelector("li#s3ptxt35").innerHTML = "Respeto a la diversidad y la dignidad humana";
+window.document.body.querySelector("li#s3ptxt36").innerHTML = "Transparencia, Responsabilidad y Humanidad";
+window.document.body.querySelector("li#s3ptxt37").innerHTML = "Supervisión institucional con independencia";
+window.document.body.querySelector("li#s3ptxt38").innerHTML = "Defensa de una causa, no de un espectáculo";
+window.document.body.querySelector("h1#s4h1cxs3").innerHTML = "VISIÓN";
+window.document.body.querySelector("li#s3ptxt39").innerHTML = "Ser una referencia nacional en derecho constitucional y administrativo enfocada en la protección de la legalidad, la integridad pública y los derechos humanos, ampliando la participación y el reconocimiento de las personas extranjeras y vulnerables en el sistema de justicia brasileño.";
+window.document.body.querySelector("li#s3ptxt40").innerHTML = "Convertirse en un símbolo de confianza jurídica y de transformación social, con una acción firme, técnica y humanizada.";
 
 //Seção 5
 
-window.document.body.querySelector().innerHTML = "";
-window.document.body.querySelector().innerHTML = "";
-window.document.body.querySelector().innerHTML = "";
-window.document.body.querySelector().innerHTML = "";
-window.document.body.querySelector().innerHTML = "";
-window.document.body.querySelector().innerHTML = "";
-window.document.body.querySelector().innerHTML = "";
-window.document.body.querySelector().innerHTML = "";
-window.document.body.querySelector().innerHTML = "";
+window.document.body.querySelector("h1#s5h11").innerHTML = "Nuestras diferencias";
+window.document.body.querySelector("p#s5p1").innerHTML = "“La responsabilidad no es jerga, es método”.";
+window.document.body.querySelector("p#s5p2").innerHTML = "Aquí, cada caso es tratado con técnica, cuidado y minuciosidad. Sus derechos no es solo un número de protocolo: son parte de la historia del país.";
+window.document.body.querySelector("p#s3ptxt43").innerHTML = "• Experiencia de vida real como extranjero en Brasil: tengo conocimiento interno de los caminos y obstáculos que enfrentan los migrantes y los transformo en una estrategia legal con resultados.";
+window.document.body.querySelector("p#s3ptxt44").innerHTML = "• Desempeño fiscalizador e institucional: Experiencia técnica en el análisis de procesos licitatorios, contratos públicos y funciones administrativas, con acciones que protejan el interés público.";
+window.document.body.querySelector("p#s3ptxt45").innerHTML = "• Formación jurídica sólida y humanista: Especializaciones en Derecho Público, Constitucional y Administrativo, con compromiso con la Constitución y la dignidad humana.";
+window.document.body.querySelector("p#s3ptxt46").innerHTML = "Servicio personalizado y exhaustivo: Cada cliente recibe atención unica, orientación clara y una estrategia a su medida. No hay fórmulas preestablecidas: se trata de técnica y escucha.";
+window.document.body.querySelector("p#s3ptxt47").innerHTML = "• Defensa de las minorías con sobriedad y firmeza: Acción a favor de las personas LGBTQIA+, migrantes, personas mayores y personas en riesgo del olvido institucional o legal.";
+window.document.body.querySelector("p#s3ptxt48").innerHTML = "• Defensa ciudadana: Comunicación precisa, con claridad técnica y empatía. Entiendes lo que se está haciendo y el por qué.";
 }
