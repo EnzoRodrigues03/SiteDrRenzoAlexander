@@ -39,8 +39,8 @@ header {
 }
 
 #hamb {
-    width: 4vh;
-    height: 4vh;
+    width: 4.1vh;
+    height: 4.2vh;
     border: hidden;
     background-image: url(hamb.png);
     background-size: contain;
