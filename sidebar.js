@@ -83,23 +83,23 @@ window.document.body.querySelector("p#s3ptxt29").innerHTML = "• Formación y c
 
 //Seção 4
 
-window.document.body.querySelector().innerHTML = "";
-window.document.body.querySelector().innerHTML = "";
-window.document.body.querySelector().innerHTML = "";
-window.document.body.querySelector().innerHTML = "";
-window.document.body.querySelector().innerHTML = "";
-window.document.body.querySelector().innerHTML = "";
-window.document.body.querySelector().innerHTML = "";
-window.document.body.querySelector().innerHTML = "";
-window.document.body.querySelector().innerHTML = "";
-window.document.body.querySelector().innerHTML = "";
-window.document.body.querySelector().innerHTML = "";
-window.document.body.querySelector().innerHTML = "";
-window.document.body.querySelector().innerHTML = "";
-window.document.body.querySelector().innerHTML = "";
-window.document.body.querySelector().innerHTML = "";
-window.document.body.querySelector().innerHTML = "";
-window.document.body.querySelector().innerHTML = "";
+window.document.body.querySelector("h1#s4h11").innerHTML = "Misión";
+window.document.body.querySelector("h1#s4h12").innerHTML = "Valores";
+window.document.body.querySelector("h1#s4h13").innerHTML = "Visión";
+window.document.body.querySelector("").innerHTML = "";
+window.document.body.querySelector("").innerHTML = "";
+window.document.body.querySelector("").innerHTML = "";
+window.document.body.querySelector("").innerHTML = "";
+window.document.body.querySelector("").innerHTML = "";
+window.document.body.querySelector("").innerHTML = "";
+window.document.body.querySelector("").innerHTML = "";
+window.document.body.querySelector("").innerHTML = "";
+window.document.body.querySelector("").innerHTML = "";
+window.document.body.querySelector("").innerHTML = "";
+window.document.body.querySelector("").innerHTML = "";
+window.document.body.querySelector("").innerHTML = "";
+window.document.body.querySelector("").innerHTML = "";
+window.document.body.querySelector("").innerHTML = "";
 
 //Seção 5
 
