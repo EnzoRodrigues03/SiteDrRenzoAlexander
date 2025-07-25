@@ -547,11 +547,11 @@ header {
 /*Seção 5--------------------------------------------------------------------------------------------------------*/
 
 .s5h1 {
-    font-size: 25px;
+    font-size: 20px;
 }
 
 #s5p1 {
-    font-size: 12px;
+    font-size: 10px;
 }
 
 #s5p2 {
@@ -564,6 +564,7 @@ header {
     font-size: 16px;
     margin-left: 5%;
     margin-right: 5%;
+    margin-bottom: 8%;
 }
 
 }
