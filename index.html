@@ -21,21 +21,25 @@
 
     <header>
         <a id="logo"  href="index.html"></a>
-        <input type="button" id="hamb" onclick="clicar()">
+        <div id="tudoprolado"></div>
+            <a id="pt" href="index.html"></a>
+            <a id="esp" onclick="clicaresp()"></a>
+            <input type="button" id="hamb" onclick="clicar()">
+        </div>
     </header>
     <div id="abaixoheader"></div>
 
     <div id="barra-oculta">
         <nav>
-            <a class="redi" href="#secao2" onclick="clicar2()">Sobre mim</a>
+            <a class="redi" href="#secao2" onclick="clicar2()" id="sobremim">Sobre mim</a>
                 <br>
-            <a class="redi" href="#secao3" onclick="clicar2()">Serviços</a>
+            <a class="redi" href="#secao3" onclick="clicar2()" id="servicos">Serviços</a>
                 <br>
-            <a class="redi" href="#secao4" onclick="clicar2()">Missão | Visão | Valores</a>
+            <a class="redi" href="#secao4" onclick="clicar2()" id="missao">Missão | Visão | Valores</a>
                 <br>
-            <a class="redi" href="#secao5" onclick="clicar2()">Diferenciais</a>
+            <a class="redi" href="#secao5" onclick="clicar2()" id="diferenciais">Diferenciais</a>
                 <br>
-            <a class="redi" href="https://wa.me/558396194420" target="_blank" rel="noopener noreferrer" onclick="clicar2()">Contato</a>
+            <a id="contato" class="redi" href="https://wa.me/558396194420" target="_blank" rel="noopener noreferrer" onclick="clicar2()">Contato</a>
         </nav>
     </div>
 
@@ -60,11 +64,11 @@
                 <br>
                 <br>
                 <br>
-                <p class="s2p">Renzo Alexander Moreno Oberto Venezuelano naturalizado na palavra.</p>
+                <p class="s2p" id="s2p1">Renzo Alexander Moreno Oberto Venezuelano naturalizado na palavra.</p>
                 <br>
-                <p class="s2p">Advogo no cruzamento entre a ordem constitucional e o princípio da dignidade. Graduado e pós-graduado em Direito Administrativo e Direito Público pela Universidade de Mogi das Cruzes, aprovado no 42º Exame da OAB. </p>
+                <p class="s2p" id="s2p2">Advogo no cruzamento entre a ordem constitucional e o princípio da dignidade. Graduado e pós-graduado em Direito Administrativo e Direito Público pela Universidade de Mogi das Cruzes, aprovado no 42º Exame da OAB.</p>
                 <br>
-                <p class="s2p">Brasileiro de alma crítica. Acredito que o Direito não é apenas norma — é linguagem, é presença, é instrumento de liberdade institucional.</p>
+                <p class="s2p" id="s2p3">Brasileiro de alma crítica. Acredito que o Direito não é apenas norma — é linguagem, é presença, é instrumento de liberdade institucional.</p>
             </div>
             <img id="foto-renzo" src="foto-renzo.jpeg">
         </section>
@@ -73,62 +77,62 @@
 
         <section id="secao3">
             <div class="s3cxs">
-                <h1 class="s3h1txt">Direito Constitucional</h1>
+                <h1 class="s3h1txt" id="s3h1txt1">Direito Constitucional</h1>
                     <div class="s3dentro">
-                        <p class="s3ptxt">• Controle de Constitucionalidade</p>
-                        <p class="s3ptxt">• Remédios Constitucionais</p>
-                        <p class="s3ptxt">• Proteção de Direitos Fundamentais</p>
-                        <p class="s3ptxt">• Direitos Fundamentais da Diversidade</p>
+                        <p class="s3ptxt" id="s3ptxt1">• Controle de Constitucionalidade</p>
+                        <p class="s3ptxt" id="s3ptxt2">• Remédios Constitucionais</p>
+                        <p class="s3ptxt" id="s3ptxt3">• Proteção de Direitos Fundamentais</p>
+                        <p class="s3ptxt" id="s3ptxt4">• Direitos Fundamentais da Diversidade</p>
                     </div>
             </div>
         
             <div class="s3cxs">
-                <h1 class="s3h1txt">Direito Administrativo</h1>
+                <h1 class="s3h1txt" id="s3h1txt2">Direito Administrativo</h1>
                     <div class="s3dentro">
-                        <p class="s3ptxt">• Licitações e Contratos Administrativos</p>
-                        <p class="s3ptxt">• Responsabilidade Civil do Estado</p>
-                        <p class="s3ptxt">• Improbidade Administrativa</p>
-                        <p class="s3ptxt">• Intervenção Estatal</p>
-                        <p class="s3ptxt">• Consultoria em Políticas Públicas e Governança</p>
+                        <p class="s3ptxt" id="s3ptxt5">• Licitações e Contratos Administrativos</p>
+                        <p class="s3ptxt" id="s3ptxt6">• Responsabilidade Civil do Estado</p>
+                        <p class="s3ptxt" id="s3ptxt7">• Improbidade Administrativa</p>
+                        <p class="s3ptxt" id="s3ptxt8">• Intervenção Estatal</p>
+                        <p class="s3ptxt" id="s3ptxt9">• Consultoria em Políticas Públicas e Governança</p>
                     </div>
             </div>
 
             <div class="s3cxs">
-                <h1 class="s3h1txt">Direito Previdenciário</h1>
+                <h1 class="s3h1txt" id="s3h1txt3">Direito Previdenciário</h1>
                     <div class="s3dentro">
-                        <p class="s3ptxt">• Benefícios do Regime Geral de Previdência Social (RGPS)</p>
-                        <p class="s3ptxt">• Regimes Próprios de Previdência dos Servidores (RPPS)</p>
-                        <p class="s3ptxt">• BPC/LOAS</p>
+                        <p class="s3ptxt" id="s3ptxt10">• Benefícios do Regime Geral de Previdência Social (RGPS)</p>
+                        <p class="s3ptxt" id="s3ptxt11">• Regimes Próprios de Previdência dos Servidores (RPPS)</p>
+                        <p class="s3ptxt" id="s3ptxt12">• BPC/LOAS</p>
                     </div>
             </div>
 
             <div class="s3cxs">
-                <h1 class="s3h1txt">Migração e Naturalização</h1>
+                <h1 class="s3h1txt" id="s3h1txt4">Migração e Naturalização</h1>
                     <div class="s3dentro">
-                        <p class="s3ptxt">• Naturalização Ordinária, Extraordinária e Especial</p>
-                        <p class="s3ptxt">• Vistos, Residência e Regularização Migratória</p>
-                        <p class="s3ptxt">• Direitos Constitucionais dos Estrangeiros</p>
-                        <p class="s3ptxt">• Expulsão, Deportação e Repatriação</p>
-                        <p class="s3ptxt">• Revalidação de Diplomas e Documentos Estrangeiros</p>
+                        <p class="s3ptxt" id="s3ptxt13">• Naturalização Ordinária, Extraordinária e Especial</p>
+                        <p class="s3ptxt" id="s3ptxt14">• Vistos, Residência e Regularização Migratória</p>
+                        <p class="s3ptxt" id="s3ptxt15">• Direitos Constitucionais dos Estrangeiros</p>
+                        <p class="s3ptxt" id="s3ptxt16">• Expulsão, Deportação e Repatriação</p>
+                        <p class="s3ptxt" id="s3ptxt17">• Revalidação de Diplomas e Documentos Estrangeiros</p>
                     </div>
             </div>
 
             <div class="s3cxs">
-                <h1 class="s3h1txt">Direito do Trabalho</h1>
+                <h1 class="s3h1txt" id="s3h1txt5">Direito do Trabalho</h1>
                     <div class="s3dentro">
-                        <p class="s3ptxt">• Ações Trabalhistas Individuais</p>
-                        <p class="s3ptxt">• Consultoria Trabalhista para Empresas</p>
-                        <p class="s3ptxt">• Acidentes de Trabalho e Doenças Ocupacionais</p>
+                        <p class="s3ptxt" id="s3ptxt18">• Ações Trabalhistas Individuais</p>
+                        <p class="s3ptxt" id="s3ptxt19">• Consultoria Trabalhista para Empresas</p>
+                        <p class="s3ptxt" id="s3ptxt20">• Acidentes de Trabalho e Doenças Ocupacionais</p>
                     </div>
             </div>
 
             <div class="s3cxs">
-                <h1 class="s3h1txt">Direito de Família</h1>
+                <h1 class="s3h1txt"  id="s3h1txt6">Direito de Família</h1>
                     <div class="s3dentro">
-                        <p class="s3ptxt">• Filiação, Paternidade e Parentalidades</p>
-                        <p class="s3ptxt">• Guarda, Convivência e Poder Familiar</p>
-                        <p class="s3ptxt">• Sucessão e Inventário</p>
-                        <p class="s3ptxt">• Adoção Nacional e Internacional</p>
+                        <p class="s3ptxt" id="s3ptxt21">• Filiação, Paternidade e Parentalidades</p>
+                        <p class="s3ptxt" id="s3ptxt22">• Guarda, Convivência e Poder Familiar</p>
+                        <p class="s3ptxt" id="s3ptxt23">• Sucessão e Inventário</p>
+                        <p class="s3ptxt" id="s3ptxt24">• Adoção Nacional e Internacional</p>
                     </div>
             </div>
 
@@ -138,11 +142,11 @@
 
             <div id="s3c7">
                 <h1 id="s3h1txt">Compliance Consultivo</h1>
-                <p class="s3ptxt2">• Elaboração de Códigos de Conduta e Políticas Internas</p>
-                <p class="s3ptxt2">• Canal de Denúncias e Procedimentos de Apuração Interna</p>
-                <p class="s3ptxt2">• Adequação à LGPD</p>
-                <p class="s3ptxt2">• Compliance Anticorrupção e Integridade Pública</p>
-                <p class="s3ptxt2">• Capacitação e Treinamentos Internos</p>
+                <p class="s3ptxt2" id="s3ptxt25">• Elaboração de Códigos de Conduta e Políticas Internas</p>
+                <p class="s3ptxt2" id="s3ptxt26">• Canal de Denúncias e Procedimentos de Apuração Interna</p>
+                <p class="s3ptxt2" id="s3ptxt27">• Adequação à LGPD</p>
+                <p class="s3ptxt2" id="s3ptxt28">• Compliance Anticorrupção e Integridade Pública</p>
+                <p class="s3ptxt2" id="s3ptxt29" >• Capacitação e Treinamentos Internos</p>
             </div>
 
         </section>
