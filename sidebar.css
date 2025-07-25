@@ -39,8 +39,8 @@ header {
 }
 
 #hamb {
-    width: 4.1vh;
-    height: 4.2vh;
+    width: 4.90vh;
+    height: 5vh;
     border: hidden;
     background-image: url(hamb.png);
     background-size: contain;
@@ -440,6 +440,11 @@ header {
     max-height: 150px;
     font-size: 20px;
 }
+
+    #hamb {
+    width: 5vh;
+    height: 5vh;
+    }
 
 /*Seção 2--------------------------------------------------------------------------------------------------------*/
 
