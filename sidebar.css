@@ -544,4 +544,26 @@ header {
     padding: auto;
 }
 
+/*Seção 5--------------------------------------------------------------------------------------------------------*/
+
+.s5h1 {
+    font-size: 25px;
+}
+
+#s5p1 {
+    font-size: 12px;
+}
+
+#s5p2 {
+    font-size: 16px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.s5ps {
+    font-size: 16px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
 }
