@@ -319,6 +319,48 @@ header {
     margin-left: 3px;
 }
 
+/*Seção 5--------------------------------------------------------------------------------------------------------*/
+
+#secao5 {
+    margin-top: 3%;
+    width: 100%;
+    height: auto;
+    background-image: url(diferenciais.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 1.2%;
+    font-family: "Playfair Display", serif;
+}
+
+.s5h1 {
+    color: #D5D5D5;
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+#s5p1 {
+    color: #a58450;
+    font-size: larger;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 4%;
+}
+
+#s5p2 {
+    color: #D5D5D5;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 4%;
+}
+
+.s5ps {
+    color: #D5D5D5;
+    font-size: larger;
+    text-align: center;
+    margin-bottom: 4%;
+}
+
 /*Media--------------------------------------------------------------------------------------------------------*/
 
 @media (max-width: 768px) {
