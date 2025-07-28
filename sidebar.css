@@ -45,6 +45,7 @@ header {
     background-image: url(hamb.png);
     background-size: contain;
     background-repeat: no-repeat;
+    background-color: #132646;
     cursor: pointer;
     margin-right: 1.5%;
 }
