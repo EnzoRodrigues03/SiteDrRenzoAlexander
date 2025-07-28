@@ -14,6 +14,22 @@ function clicar2() {
     }
 }
 
+function wredi() {
+    window.open ("https://wa.me/558396194420", "_blank");
+}
+
+function gredi() {
+    window.open ("https://mail.google.com/mail/?view=cm&to=renzomoreno.adv@gmail.com", "blank")
+}
+
+function iredi() {
+    window.open ("https://www.instagram.com/dr.renzoalexander/", "blank")
+}
+
+function lredi() {
+    window.open ("https://www.linkedin.com/in/renzoalexandermorenooberto/", "blank")
+}
+
 function clicaresp() {
 
 // Cabeçalho

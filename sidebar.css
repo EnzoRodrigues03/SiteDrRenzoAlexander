@@ -39,8 +39,8 @@ header {
 }
 
 #hamb {
-    width: 4.90vh;
-    height: 5vh;
+    width: 2.90vh;
+    height: 2.9vh;
     border: hidden;
     background-image: url(hamb.png);
     background-size: contain;
@@ -398,6 +398,122 @@ header {
     margin-right: 5%;
 }
 
+/*Seção 6--------------------------------------------------------------------------------------------------------*/
+
+#secao6 {
+    width: 100%;
+    height: auto;
+    background-color: #132646;
+    padding: 1.2%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8%;
+    align-items: center;
+    justify-content: center;
+}
+
+#s6div1 {
+    width: 60%;
+    height: 44vh;
+    border-radius: 20px;
+    background-color: #D5D5D5;
+    color: #132646;
+    padding: 1.2%;
+    margin-top: 3%;
+}
+
+#s6div1h1 {
+    color: #132646;
+    font-size: 41px;
+    margin-bottom: 2%;
+}
+
+#s6div1p1 {
+    color: #132646;
+    font-size: 20px;
+    margin-bottom: 2%;
+}
+
+#wimage {
+    background-image: url(wimage.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 40px;
+    width: 40px;
+    border-style: none;
+    border-radius: 20%;
+    cursor: pointer;
+    margin-bottom: 3%;
+    margin-right: 1%;
+}
+
+#gimage {
+    background-image: url(gimage.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 40px;
+    width: 40px;
+    border: solid rgb(155, 2, 2);
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#s6div1h2 {
+    color: #132646;
+    font-size: 41px;
+    margin-bottom: 2%;
+}
+
+#s6div1p2 {
+    color: #132646;
+    font-size: 20px;
+    margin-bottom: 2%;
+}
+
+#s6div1p3 {
+    color: #132646;
+    font-size: 20px;
+    margin-bottom: 2%;
+}
+
+#iimage {
+    background-image: url(iimage.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 40px;
+    width: 40px;
+    border-style: none;
+    border-radius: 20%;
+    background-color: transparent;
+    cursor: pointer;
+    margin-right: 1%;
+}
+
+#limage {
+    background-image: url(limage.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 40px;
+    width: 40px;
+    border-style: none;
+    border-radius: 20%;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#s6div2 {
+    align-items: center;
+    width: fit-content;
+    height: 44vh;
+    border-radius: 20px;
+    background-color: #D5D5D5;
+    color: #132646;
+    padding: 1.2%;
+    margin-top: 3%;
+    margin-right: 4%;
+    overflow: hidden;
+}
+
 /*Media--------------------------------------------------------------------------------------------------------*/
 
 @media (max-width: 768px) {
@@ -442,8 +558,8 @@ header {
 }
 
     #hamb {
-    width: 5vh;
-    height: 5vh;
+    width: 9.5vw;
+    height: 4vh;
     }
 
 /*Seção 2--------------------------------------------------------------------------------------------------------*/
@@ -607,6 +723,115 @@ header {
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 8%;
+}
+
+/*Seção 6--------------------------------------------------------------------------------------------------------*/
+
+#secao6 {
+    flex-direction: column;
+}
+
+#s6div1 {
+    width: 90%;
+    height: auto;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 10%;
+    text-align: center;
+}
+
+#s6div1h1 {
+    color: #132646;
+    font-size: 31px;
+    margin-bottom: 2%;
+}
+
+#s6div1p1 {
+    color: #132646;
+    font-size: 20px;
+    margin-bottom: 10%;
+}
+
+#wimage {
+    background-image: url(wimage.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 40px;
+    width: 40px;
+    border-style: none;
+    border-radius: 20%;
+    cursor: pointer;
+    margin-bottom: 3%;
+    margin-right: 8%;
+}
+
+#gimage {
+    background-image: url(gimage.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 40px;
+    width: 40px;
+    border: solid rgb(155, 2, 2);
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#s6div1h2 {
+    color: #132646;
+    font-size: 31px;
+    margin-bottom: 2%;
+}
+
+#s6div1p2 {
+    color: #132646;
+    font-size: 20px;
+    margin-bottom: 2%;
+}
+
+#s6div1p3 {
+    color: #132646;
+    font-size: 20px;
+    margin-bottom: 2%;
+}
+
+#iimage {
+    background-image: url(iimage.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 40px;
+    width: 40px;
+    border-style: none;
+    border-radius: 20%;
+    cursor: pointer;
+    margin-bottom: 3%;
+    margin-right: 8%;
+}
+
+#limage {
+    background-image: url(limage.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 40px;
+    width: 40px;
+    border-style: none;
+    border-radius: 20%;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#s6div2 {
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 20px;
+    background-color: #D5D5D5;
+    color: #132646;
+    padding: 1.2%;
+    margin-top: 3%;
+    margin-right: 8%;
+    margin-left: 8%;
+    margin-bottom: 10%;
+    overflow: hidden;
 }
 
 }
