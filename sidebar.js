@@ -128,4 +128,12 @@ window.document.body.querySelector("p#s3ptxt45").innerHTML = "• Formación jur
 window.document.body.querySelector("p#s3ptxt46").innerHTML = "Servicio personalizado y exhaustivo: Cada cliente recibe atención unica, orientación clara y una estrategia a su medida. No hay fórmulas preestablecidas: se trata de técnica y escucha.";
 window.document.body.querySelector("p#s3ptxt47").innerHTML = "• Defensa de las minorías con sobriedad y firmeza: Acción a favor de las personas LGBTQIA+, migrantes, personas mayores y personas en riesgo del olvido institucional o legal.";
 window.document.body.querySelector("p#s3ptxt48").innerHTML = "• Defensa ciudadana: Comunicación precisa, con claridad técnica y empatía. Entiendes lo que se está haciendo y el por qué.";
+
+//Seção 6
+
+window.document.body.querySelector("h1#s6div1h1").innerHTML = "Consultas y Servicio";
+window.document.body.querySelector("p#s6div1p1").innerHTML = "Ofrezco servicios de consultoría y litigio a particulares, organismos públicos y empresas. Trabajo con contratos, licitaciones, dictámenes legales y casos complejos que requieren experiencia técnica.";
+window.document.body.querySelector("h2#s6div1h2").innerHTML = "Contenidos y publicaciones";
+window.document.body.querySelector("p#s6div1p2").innerHTML = "La producción legal también es un acto de resistencia. Escribo para educar, provocar y defender el orden constitucional.";
+
 }
