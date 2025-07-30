@@ -140,4 +140,10 @@ window.document.body.querySelector("p#s6div1p1").innerHTML = "Ofrezco servicios 
 window.document.body.querySelector("h2#s6div1h2").innerHTML = "Contenidos y publicaciones";
 window.document.body.querySelector("p#s6div1p2").innerHTML = "La producción legal también es un acto de resistencia. Escribo para educar, provocar y defender el orden constitucional.";
 
+//Rodape
+
+window.document.body.querySelector("h1#fh1").innerHTML = "Servicios";
+window.document.body.querySelector("p#fp1").innerHTML = "Derecho Constitucional, Derecho Administrativo, Derecho de la Previdencia, Migración y Naturalización, Derecho Laboral, Derecho de Familia, Asesoría en Cumplimiento";
+window.document.body.querySelector("h1#fh2").innerHTML = "Contacto";
+window.document.body.querySelector("p#posrodape").innerHTML = "© 2025 Renzo Alexander Moreno Oberto | Servicios Legales. Todos los derechos reservados.";
 }
