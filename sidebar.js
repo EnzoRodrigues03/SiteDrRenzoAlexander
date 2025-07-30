@@ -1,3 +1,7 @@
+AOS.init({
+    once: false, duration: 800, easing: 'ease-in-out'
+});
+
 var mover = window.document.querySelector("#barra-oculta")
 
 function clicoufora() {
