@@ -31,7 +31,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     height: 70px;
-    width: 250px;
+    width: 280px;
 }
 
 #tudoprolado {
@@ -406,7 +406,7 @@ header {
     height: auto;
     background-color: #132646;
     display: flex;
-    gap: 8%;
+    gap: 8vw;
     align-items: center;
     justify-content: center;
 }
@@ -502,18 +502,24 @@ header {
 
 #s6div2 {
     align-items: center;
-    width: 330px;
-    height: 450px;
+    width: fit-content;
+    height: 462px;
     border-radius: 20px;
-    background-color: white;
+    background-color: transparent;
     color: #132646;
-    padding: 1.2%;
+    padding: auto;
     margin-top: 3%;
     margin-right: 4%;
     overflow: hidden;
 }
 
 /*Media--------------------------------------------------------------------------------------------------------*/
+
+@media (max-width: 1288px) {
+    #secao6 {
+        flex-direction: column;
+    }
+}
 
 @media (max-width: 768px) {
 
