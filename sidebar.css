@@ -413,7 +413,7 @@ header {
 
 #s6div1 {
     width: 60%;
-    height: 44vh;
+    height: fit-content;
     border-radius: 20px;
     background-color: #D5D5D5;
     color: #132646;
@@ -502,7 +502,7 @@ header {
 
 #s6div2 {
     align-items: center;
-    width: fit-content;
+    width: 330px;
     height: 450px;
     border-radius: 20px;
     background-color: white;
