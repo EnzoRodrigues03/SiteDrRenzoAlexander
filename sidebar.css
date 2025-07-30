@@ -515,14 +515,89 @@ header {
     margin-bottom: 3%;
 }
 
+/*Rodape--------------------------------------------------------------------------------------------------------*/
+
 #rodape {
-    background-color: #a58450;
+    background-color: #d4b481;
     display: flex;
     width: 100%;
     height: auto;
     color: #132646;
     align-items: center;
-    padding: 1.2%;
+    justify-content: center;
+    padding: 2%;
+    gap: 2%;
+}
+
+#lrodape {
+    height: 60px;
+    width: 230px;
+}
+
+#rodapecx1 {
+    width: 20%;
+    height: auto;
+}
+
+#rodapecx2 {
+    margin-top: 0.3%;
+    width: fit-content;
+    height: auto;
+}
+
+#wrimage {
+    background-image: url(wimage.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: transparent;
+    height: 35px;
+    width: 35px;
+    border-style: none;
+    border-radius: 150%;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+#grimage {
+    background-image: url(gimage.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 35px;
+    width: 35px;
+    border: solid rgb(155, 2, 2);
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+#irimage {
+    background-image: url(iimage.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 35px;
+    width: 35px;
+    border-style: none;
+    border-radius: 100%;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#lrimage {
+    background-image: url(limage.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 35px;
+    width: 35px;
+    border-style: none;
+    border-radius: 100%;
+    background-color: transparent;
+    cursor: pointer;
+    margin-right: 5%;
+}
+
+#posrodape {
+    background-color: #d4b481;
+    text-align: center;
+    padding: 0.5%;
 }
 
 /*Media--------------------------------------------------------------------------------------------------------*/
@@ -535,7 +610,7 @@ header {
 
 @media (max-width: 768px) {
 
-    header {
+    #header {
         gap: 2%;
     }
 
@@ -581,7 +656,7 @@ header {
     #hamb {
     width: 9.5vw;
     height: 4vh;
-    }
+}
 
 /*Seção 2--------------------------------------------------------------------------------------------------------*/
 
@@ -853,6 +928,69 @@ header {
     margin-left: 5%;
     margin-bottom: 10%;
     overflow: hidden;
+}
+
+/*Rodape--------------------------------------------------------------------------------------------------------*/
+
+#lrodape {
+    margin-top: 10%;
+    height: 60px;
+    width: 230px;
+}
+
+#rodapecx1 {
+    margin-top: 10%;
+    width: 80%;
+    height: auto;
+    text-align: center;
+}
+
+#rodapecx2 {
+    margin-top: 10%;
+    width: 80%;
+    height: auto;
+    text-align: center;
+}
+
+#wrimage {
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+}
+
+#grimage {
+    margin-bottom: 5%;
+}
+
+#irimage {
+    background-image: url(iimage.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 35px;
+    width: 35px;
+    border-style: none;
+    border-radius: 100%;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#lrimage {
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15%;
+}
+
+#posrodape {
+    background-color: #d4b481;
+    text-align: center;
+    padding: 0.5%;
+}
+
+#rodape {
+    flex-direction: column;
+    padding: 1.2%;
 }
 
 }
