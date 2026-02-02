@@ -19,7 +19,7 @@ function clicar2() {
 }
 
 function wredi() {
-    window.open ("https://wa.me/558396194420", "_blank");
+    window.open ("https://wa.me/5511947428730", "_blank");
 }
 
 function gredi() {
@@ -146,4 +146,5 @@ window.document.body.querySelector("h1#fh1").innerHTML = "Servicios";
 window.document.body.querySelector("p#fp1").innerHTML = "Derecho Constitucional, Derecho Administrativo, Derecho de la Previdencia, Migración y Naturalización, Derecho Laboral, Derecho de Familia, Asesoría en Compliance";
 window.document.body.querySelector("h1#fh2").innerHTML = "Contacto";
 window.document.body.querySelector("p#posrodape").innerHTML = "© 2025 Renzo Alexander Moreno Oberto | Servicios Legales. Todos los derechos reservados.";
+
 }
